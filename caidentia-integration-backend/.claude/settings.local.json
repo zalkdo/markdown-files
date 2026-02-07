@@ -1,7 +1,39 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./gradlew tasks:*)"
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "WebSearch",
+      "WebFetch(domain:www.arhohuttunen.com)",
+      "Bash(java:*)",
+      "Bash(choco list:*)",
+      "Bash(choco install:*)",
+      "Bash(curl:*)",
+      "Bash(winget:*)",
+      "Bash(/c/Python314/python:*)",
+      "Bash(export:*)",
+      "Bash(export PATH=\"$JAVA_HOME/bin:F:/gradle_ext/gradle-8.12/bin:$PATH\")",
+      "Bash(gradle --version:*)",
+      "Bash(gradle clean build:*)",
+      "Bash(\"F:/jdk21_ext/jdk-21.0.4+7/bin/java\" -version)",
+      "Bash(JAVA_HOME=\"F:/jdk21_ext/jdk-21.0.4+7\" \"F:/gradle_ext/gradle-8.12/bin/gradle\":*)",
+      "Bash(JAVA_HOME=\"F:/jdk21_ext/jdk-21.0.4+7\" \"F:/gradle_ext/gradle-8.12/bin/gradle\" clean build:*)",
+      "Bash(JAVA_HOME=\"F:/jdk21_ext/jdk-21.0.4+7\" \"F:/gradle_ext/gradle-8.12/bin/gradle\" build:*)",
+      "Bash(JAVA_HOME=\"F:/jdk21_ext/jdk-21.0.4+7\" \"F:/gradle_ext/gradle-8.12/bin/gradle\" test:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "mcp__plugin_oh-my-claudecode_t__notepad_write_working",
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew bootRun:*)",
+      "Bash(timeout /t 15 /nobreak)",
+      "Bash(ping:*)",
+      "Bash(findstr:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(python:*)",
+      "Bash(.\\\\gradlew.bat build:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "mcp__plugin_oh-my-claudecode_t__ast_grep_search"
     ]
   }
 }
